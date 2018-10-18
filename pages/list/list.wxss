@@ -1,0 +1,41 @@
+/* pages/list/list.wxss */
+
+.container{
+	height: 100%;
+	width: 100%;
+	display: table;
+	align-items: center;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+	text-align: center;
+}
+
+.widget{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding: 4px 0;
+	border: #ddd 1px solid;
+}
+
+.column{
+	width: 20%;
+	display: flex;
+	justify-content: space-around;
+}
+
+ .link-column{
+	width: 40%;
+	display: flex;
+	justify-content: center;
+} 
+
+.link{
+	color: blue;
+}
+
+.shuxian{
+	padding: 0 5px;
+}
